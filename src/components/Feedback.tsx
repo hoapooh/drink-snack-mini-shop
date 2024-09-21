@@ -84,7 +84,7 @@ function Feedback() {
   return (
     <div
       id={'feedback'}
-      className="relative flex w-full flex-col pt-24 items-center justify-center bg-white overflow-hidden"
+      className="relative flex w-full flex-col pt-5 md:pt-24 items-center justify-center bg-white overflow-hidden"
     >
       <h2 className={'text-3xl text-primary mb-5'}>Feedback của chúng tớ</h2>
       <Marquee pauseOnHover className="[--duration:30s]">

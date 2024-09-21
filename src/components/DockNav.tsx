@@ -219,7 +219,7 @@ function DockNav() {
                   </a>
                 </TooltipTrigger>
                 <TooltipContent>
-                  <p>Back to top</p>
+                  <p>Quay lại đầu trang</p>
                 </TooltipContent>
               </Tooltip>
             </DockIcon>

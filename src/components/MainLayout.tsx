@@ -3,6 +3,7 @@ import DockNav from '@/components/DockNav.tsx'
 import Feedback from '@/components/Feedback.tsx'
 import Footer from '@/components/Footer.tsx'
 import Menu from '@/components/Menu.tsx'
+import Hero from '@/components/Hero.tsx'
 
 // This is for dark mode if needed
 // import {ModeToggle} from "@/components/mode-toggle";
@@ -13,6 +14,7 @@ export function MainLayout() {
     <>
       <div className="h-dvh bg-background w-full items-center justify-center">
         <Header />
+        <Hero />
       </div>
 
       <main>

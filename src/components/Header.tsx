@@ -10,7 +10,7 @@ function Header() {
       <a href={'#'} className={'cursor-pointer'}>
         <SparklesText
           text={'Mễ'}
-          className="m-2 text-center font-semibold relative z-10 text-5xl before:content-['Mễ'] before:text-black before:absolute before:-z-10 before:left-7"
+          className="m-2 text-center font-semibold relative z-10 text-5xl before:content-['Mễ'] before:text-black before:absolute before:-z-10 before:left-1/2 before:-translate-x-[60%]"
         />
 
         <p className={"text-xl font-['Pecita'] relative z-10 mt-2 "}>

@@ -12,7 +12,7 @@ function MyFigure({ imgSource, imgAlt, imgCaption }: IMyFigure) {
   return (
     <figure>
       <Zoom canSwipeToUnzoom={false}>
-        <BoxReveal boxColor={'hsl(151.24, 100%, 23.73%)'} duration={0.6}>
+        <BoxReveal boxColor={'hsl(151.24, 100%, 23.73%)'} duration={0.4}>
           <img
             alt={imgAlt}
             src={imgSource}
@@ -24,10 +24,10 @@ function MyFigure({ imgSource, imgAlt, imgCaption }: IMyFigure) {
       <figcaption
         className={
           'flex justify-center border border-solid border-primary shadow-[2px_3px_0_rgb(0,0,0)] text-black' +
-          ' bg-background  text-foreground py-1 text-lg mt-5 rounded-lg'
+          ' bg-background  text-foreground py-1 text-lg mt-5 rounded-lg pointer-events-none'
         }
       >
-        <BoxReveal boxColor={'hsl(151.24, 100%, 23.73%)'} duration={0.6}>
+        <BoxReveal boxColor={'hsl(151.24, 100%, 23.73%)'} duration={0.4}>
           <p className={'text-center'}>{imgCaption}</p>
         </BoxReveal>
       </figcaption>

@@ -1,12 +1,17 @@
 import MyFigure from '@/components/MyFigure.tsx'
+import BoxReveal from '@/components/magicui/box-reveal.tsx'
 
 function Menu() {
   return (
-    <div id={'menu'} className={'bg-white pt-24 pb-3'}>
-      <h2 className={'text-3xl text-primary text-center'}>Menu của chúng tớ</h2>
+    <div id={'menu'} className={'bg-white pt-5 md:pt-24 pb-3'}>
+      <h2 className={'flex items-center justify-center text-3xl text-primary'}>
+        <BoxReveal boxColor={'hsl(151.24, 100%, 23.73%)'} duration={0.4}>
+          <span>Menu của chúng tớ</span>
+        </BoxReveal>
+      </h2>
       <div
         className={
-          'flex flex-col md:flex-row items-center justify-between gap-5 mx-auto mt-5 w-4/5 md:w-3/5'
+          'flex flex-col md:flex-row items-center justify-between gap-5 mx-auto mt-5 w-4/5 lg:w-3/5'
         }
       >
         <MyFigure
