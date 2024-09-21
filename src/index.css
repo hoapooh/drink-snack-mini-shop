@@ -77,11 +77,12 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-white text-foreground;
   }
 }
 
-html, body {
-  font-family: "Pacifico", cursive;
+html,
+body {
+  font-family: 'Pacifico', cursive;
   scroll-behavior: smooth;
 }
